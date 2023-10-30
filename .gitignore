@@ -1,0 +1,19 @@
+# virtual environment
+quiz-env
+.venv
+
+.env
+
+**.pyc
+
+*.egg-info
+
+# SQLite database and uploaded files
+site/backend/uploads
+site/instance
+
+# Google Cloud service account credentials
+site/backend/google-service-account.json
+
+# gunicorn logs
+site/gunicorn.log
